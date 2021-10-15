@@ -1,5 +1,5 @@
 {
-  "name": "DyLux Selfbot",
+  "name": "Pacoca Selfbot",
   "version": "0.0.1",
   "description": "Base",
   "main": "main.js",
@@ -67,12 +67,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FG98F/fgbotv4.git"
+    "url": "git+https://github.com/pacokinha444/PacocaBOT"
   },
   "keywords": [
     "Wasu"
   ],
-  "author": "FG98",
+  "author": "Pacoca",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FG98F/fgbotv4/issues"
