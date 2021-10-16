@@ -1845,9 +1845,6 @@ _📤 O vídeo está sendo enviado, caso não chegue baixe pelo link_`
                 quoted: mek,
               });
                 caption: `✅ Aqui está`,
-            
-          
-        
              break
 
       //******************** 》 SEARCH 《 ********************\\
