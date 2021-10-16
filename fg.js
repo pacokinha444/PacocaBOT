@@ -1846,7 +1846,7 @@ _📤 O vídeo está sendo enviado, caso não chegue baixe pelo link_`
               });
                 caption: `✅ Aqui está`,
             
-          }
+          
         });
              break
 
