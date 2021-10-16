@@ -1209,7 +1209,7 @@ if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMes
 						reply('✅ Ordens recebidas, expulsando...')
                     break
 
-      *case "add":
+      	case "add":
         if (!isOwner) return 
 if (!isGroup) return reply(group())
 if (!isGroupAdmins) return reply(admin())
