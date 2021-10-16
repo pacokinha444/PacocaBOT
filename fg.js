@@ -1845,10 +1845,11 @@ _📤 O vídeo está sendo enviado, caso não chegue baixe pelo link_`
                 quoted: mek,
               });
                 caption: `✅ Aqui está`,
-            }
+            
           }
         });
-             break;
+             break
+
       //******************** 》 SEARCH 《 ********************\\
 case 'ytsearch':
 if (!isVerify) return reply(userB(prefix))
