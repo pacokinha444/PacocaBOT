@@ -922,7 +922,7 @@ case 'wa.me':
 			break
 
 //-- say
-case 'say':
+/*case 'say':
     if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 sendMess(from, q)
