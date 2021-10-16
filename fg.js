@@ -1236,7 +1236,7 @@ if (!isBotGroupAdmins) return reply(Badmin())
           entah = mek.message.extendedTextMessage.contextInfo.participant;
           add(from, [entah]);
         }
-        break;*/
+        break
         
      //--- abrir y cerrar grupo
 case 'grupo':
