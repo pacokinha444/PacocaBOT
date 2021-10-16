@@ -1829,7 +1829,7 @@ _📤 O vídeo está sendo enviado, caso não chegue baixe pelo link_`
          if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
     if (!isUrl(args[0]) && !args[0].includes("instagram.com")) return reply(mess.link);
-       if (args.length < 1) return reply(`✳️ Coloque o link de uma foto ou vídeo do Instagram`)
+       if (args.length < 1) return reply(`✳️ Coloque o link de uma foto ou video do Instagram`)
         reply(wait());
         hx.igdl(args[0]).then(async (result) => {
           for (let i of result.medias) {
@@ -1837,14 +1837,14 @@ _📤 O vídeo está sendo enviado, caso não chegue baixe pelo link_`
               let link = await getBuffer(i.url);
               Fg.sendMessage(from, link, video, {
                 quoted: mek,
-                caption: `✅ Aqui está`,
+                caption: `✅ Aquí está`,
               });
             } else {
               let link = await getBuffer(i.url);
               Fg.sendMessage(from, link, image, {
                 quoted: mek,
+                caption: `✅ Aquí tienes`,
               });
-                caption: `✅ Aqui está`,
             }
           }
         });
