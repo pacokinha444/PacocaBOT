@@ -926,7 +926,7 @@ case 'say':
     if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
 sendMess(from, q)
-break*/
+break
 
 //-- Escanea el texto de una imagen----- Reconocimiento de texto
 case 'ocr':
