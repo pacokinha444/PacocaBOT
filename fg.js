@@ -1980,7 +1980,7 @@ break
        
        
         
-       *case 'image':
+       case 'image':
    case 'imagen':
    case 'img':
    if (!isVerify) return reply(userB(prefix))
