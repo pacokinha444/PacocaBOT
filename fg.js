@@ -2387,8 +2387,8 @@ dua = typeof anu[1] !== 'undefined' ? anu[1] : `@fg98._`
 
 const Nombre2 = `${satu}`  //animados💎
 const author101 = `${dua}`
-exif.create(Nombre2, author101, `stickwm_${sender}`)
-reply(wait())
+exif . criar ( Nombre2 , autor101 , `stickwm _ $ { sender }` )
+responder ( esperar ())
 await ffmpeg(`${media2}`)
 .inputFormat(media2.split('.')[4])
 .on('start', function (cmd) {
