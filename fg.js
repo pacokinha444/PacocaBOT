@@ -2382,8 +2382,8 @@ const encmedia2 = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quoted
 const media2 = await Fg.downloadAndSaveMediaMessage(encmedia2, `./sticker/${sender}`)
 
 anu = args.join(' ').split('|')
-satu = anu[0] !== '' ? anu[0] : `Pacoca`
-dua = typeof anu[1] !== 'undefined' ? anu[1] : `@Pacokakk`
+satu = anu[0] !== '' ? anu[0] : `🔮 Pacoca ┃ ᴮᴼᵀ `
+dua = typeof anu[1] !== 'undefined' ? anu[1] : `💎 @Pacokakk`
 
 const Nombre2 = `${satu}`  //animados💎
 const author101 = `${dua}`
