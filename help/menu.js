@@ -12,7 +12,6 @@ exports.help = (prefix,pushname) => {
 ❐ *${prefix}ping*
 ❐ *${prefix}runtime*
 ❐ *${prefix}status*
-❐ *${prefix}soporte*
 ❐ *${prefix}Join*
 ❐ *${prefix}banlist*
 ❐ *prefixo*
@@ -86,7 +85,7 @@ exports.help = (prefix,pushname) => {
 └──────────────
 
 ┌───⊷ *JOGOS* ⊶
-▢ *${prefix}shipping* 
+▢ *${prefix}ship* 
 ▢ *${prefix}pergunta*
 ▢ *${prefix}verdade*
 ▢ *${prefix}desafio*
