@@ -2370,8 +2370,8 @@ const dlfile1 = await Fg.downloadMediaMessage(encmedia1)
 const bas641 = `data:image/jpeg;base64,${dlfile1.toString('base64')}`
 
 anu = args.join(' ').split('|')
-satu = anu[0] !== '' ? anu[0] : `🔮 DyLux ┃ ᴮᴼᵀ `
-dua = typeof anu[1] !== 'undefined' ? anu[1] : `💎 @fg98._`
+satu = anu[0] !== '' ? anu[0] : `🔮 Pacoca ┃ ᴮᴼᵀ `
+dua = typeof anu[1] !== 'undefined' ? anu[1] : `💎 @Pacocakk`
 
 var mantap1 = await convertSticker(bas641, `${dua}`, `${satu}`)
 var st = new Buffer.from(mantap1, 'base64');
