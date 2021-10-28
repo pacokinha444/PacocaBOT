@@ -2382,8 +2382,8 @@ const encmedia2 = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quoted
 const media2 = await Fg.downloadAndSaveMediaMessage(encmedia2, `./sticker/${sender}`)
 
 anu = args.join(' ').split('|')
-satu = anu[0] !== '' ? anu[0] : `DyLux`
-dua = typeof anu[1] !== 'undefined' ? anu[1] : `@fg98._`
+satu = anu[0] !== '' ? anu[0] : `Pacoca`
+dua = typeof anu[1] !== 'undefined' ? anu[1] : `@Pacokakk`
 
 const Nombre2 = `${satu}`  //animados💎
 const author101 = `${dua}`
@@ -2415,7 +2415,7 @@ ase,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=rese
 .toFormat('webp')
 .save(`./sticker/${sender}.webp`)
 } else {
-reply(`  *STICKER MAKER*\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n\n✳️ Envia una imagen con *${prefix + command}* Nombre|Autor \n o etiqueta una imagen que se haya enviado, *Videos 1-9 segundos*\n\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n*ALIAS DEL COMAMDO*\n\n${prefix}s\n${prefix}sticker\n${prefix}stickergif\n${prefix}sgif`)
+reply(`  *STICKER MAKER*\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n\n✳️ Envia una imagen com *${prefix + command}* Nome|Autor \n ou marque uma imagem que já foi enviada, *Videos 1-9 segundos*\n\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n*ALIAS DEL COMAMDO*\n\n${prefix}s\n${prefix}sticker\n${prefix}stickergif\n${prefix}sgif`)
 }
 break
 
@@ -2424,7 +2424,7 @@ case 'take':
          case 'robar':
 if (!isVerify) return reply(userB(prefix))
   if (isBanned) return reply(banf())
-  if (!isQuotedSticker) return reply(`✳️ Responde uma sticker\n\n*USO DEL COMAMDO*\n*${prefix + command}* Nome|Autor\n\n📌Exemplo *${prefix + command}* Memes|Haha`);
+  if (!isQuotedSticker) return reply(`✳️ Responde uma sticker\n\n*USO DO COMAMDO*\n*${prefix + command}* Nome|Autor\n\n📌Exemplo *${prefix + command}* Memes|Haha`);
 const encmediats = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 kls = args.join(" ").split("|");
 pack = kls[0] !== "" ? kls[0] : `🔮 Pacoca ┃ ᴮᴼᵀ`;
