@@ -2354,7 +2354,7 @@ break
 
       
         
-      //𝗦𝗧𝗜𝗖𝗞𝗘𝗥 𝗠𝗔𝗞𝗘𝗥 
+            //𝗦𝗧𝗜𝗖𝗞𝗘𝗥 𝗠𝗔𝗞𝗘𝗥 
 case 'stiker': 
 case 's': 
 case 'stikergif':
@@ -2370,8 +2370,8 @@ const dlfile1 = await Fg.downloadMediaMessage(encmedia1)
 const bas641 = `data:image/jpeg;base64,${dlfile1.toString('base64')}`
 
 anu = args.join(' ').split('|')
-satu = anu[0] !== '' ? anu[0] : `🔮 Pacoca ┃ ᴮᴼᵀ `
-dua = typeof anu[1] !== 'undefined' ? anu[1] : `💎 @Pacokakk`
+satu = anu[0] !== '' ? anu[0] : `🔮 DyLux ┃ ᴮᴼᵀ `
+dua = typeof anu[1] !== 'undefined' ? anu[1] : `💎 @fg98._`
 
 var mantap1 = await convertSticker(bas641, `${dua}`, `${satu}`)
 var st = new Buffer.from(mantap1, 'base64');
@@ -2382,13 +2382,13 @@ const encmedia2 = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quoted
 const media2 = await Fg.downloadAndSaveMediaMessage(encmedia2, `./sticker/${sender}`)
 
 anu = args.join(' ').split('|')
-satu = anu[0] !== '' ? anu[0] : `🔮 Pacoca ┃ ᴮᴼᵀ `
-dua = typeof anu[1] !== 'undefined' ? anu[1] : `💎 @Pacokakk`
+satu = anu[0] !== '' ? anu[0] : `DyLux`
+dua = typeof anu[1] !== 'undefined' ? anu[1] : `@fg98._`
 
 const Nombre2 = `${satu}`  //animados💎
 const author101 = `${dua}`
-exif . criar ( Nombre2 , autor101 , `stickwm _ $ { sender }` )
-responder ( esperar ())
+exif.create(Nombre2, author101, `stickwm_${sender}`)
+reply(wait())
 await ffmpeg(`${media2}`)
 .inputFormat(media2.split('.')[4])
 .on('start', function (cmd) {
@@ -2398,7 +2398,7 @@ console.log(`Started : ${cmd}`)
 console.log(`❎ Error : ${err}`)
 fs.unlinkSync(media2)
 tipe = media.endsWith('.mp4') ? 'video' : 'gif'
-reply(`❎ Falhou no momento da conversão ${tipe} para a figurinha`)
+reply(`❎ Falló, en el momento de la conversión ${tipe} a la pegatina`)
 })
 .on('end', function () {
 console.log('✅ Listo')
@@ -2415,7 +2415,7 @@ ase,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=rese
 .toFormat('webp')
 .save(`./sticker/${sender}.webp`)
 } else {
-reply(`  *STICKER MAKER*\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n\n✳️ Envia uma imagem com *${prefix + command}* Nome|Autor \n ou marque uma imagem que já foi enviada, *Videos 1-9 segundos*\n\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n*ALIAS O COMANDO*\n\n${prefix}s\n${prefix}sticker\n${prefix}stickergif\n${prefix}sgif`)
+reply(`  *STICKER MAKER*\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n\n✳️ Envia una imagen con *${prefix + command}* Nombre|Autor \n o etiqueta una imagen que se haya enviado, *Videos 1-9 segundos*\n\n▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n*ALIAS DEL COMAMDO*\n\n${prefix}s\n${prefix}sticker\n${prefix}stickergif\n${prefix}sgif`)
 }
 break
 
