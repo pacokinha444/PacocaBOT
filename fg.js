@@ -81,10 +81,6 @@ const _level = JSON.parse(fs.readFileSync('./database/nivel.json'))
 const awgp = JSON.parse(fs.readFileSync('./database/awgp.json'))
 const totalhit = JSON.parse(fs.readFileSync('./libreria/totalcmd.json'))
 
-//-- Resultados
-const _verdad = JSON.parse(fs.readFileSync('./result/verdad.json'));
-const _reto = JSON.parse(fs.readFileSync('./result/reto.json'));
-
 //---Ajustes  Del prefijo
 let multi = true
 let nopref = false
